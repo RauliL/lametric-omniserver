@@ -1,0 +1,31 @@
+{
+  "name": "@rauli/lametric-omniserver",
+  "version": "1.0.0",
+  "description": "Combination of all LaMetric backends I made",
+  "main": "./index.js",
+  "repository": "https://github.com/RauliL/lametric-omniserver.git",
+  "author": "Rauli Laine <rauli.laine@iki.fi>",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=12"
+  },
+  "bin": {
+    "lametric-omniserver": "./bin/lametric-omniserver"
+  },
+  "scripts": {
+    "start": "./bin/lametric-omniserver",
+    "start:dev": "nodemon ./bin/lametric-omniserver"
+  },
+  "dependencies": {
+    "debug": "^4.3.1",
+    "express": "^4.17.1",
+    "lametric-foli": "^2.0.0",
+    "lametric-iltasanomat": "^1.0.0",
+    "lametric-yle": "^3.0.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
