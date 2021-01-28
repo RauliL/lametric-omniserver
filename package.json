@@ -20,9 +20,9 @@
   "dependencies": {
     "debug": "^4.3.1",
     "express": "^4.17.1",
-    "lametric-foli": "^2.0.0",
-    "lametric-iltasanomat": "^1.0.0",
-    "lametric-yle": "^3.0.0",
+    "lametric-foli": "^2.1.0",
+    "lametric-iltasanomat": "^2.0.0",
+    "lametric-yle": "^3.1.0",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
